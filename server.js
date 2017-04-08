@@ -27,7 +27,7 @@ app.get('/posts', (req, res) => {
     });
 });
 
-app.get('/posts/:id', (req, res) => {
+app.get('/posts/:id', (req, res) => {  
   BlogPost
     .findById(req.params.id)
     .exec()
