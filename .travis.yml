@@ -1,0 +1,11 @@
+language: node_js
+node_js: node
+services:
+- mongodb
+deploy:
+  provider: heroku
+  api_key:
+    secure: C8intgb60P6iCknE2ESA5iwBGJo5PChVLhDG/n6RvPTJHpGxtFZKlXqNAg68X15m5D/NS8i5nf3HkQUsFNnejvo3t1GC2G5xtIhuw69O1xTK+EnjRwkCmlPCL0k2ZlVqNkelkAEK9UZ7sMoVOvN4W6cdhP9u4o4kuyWo4imfJ1RbKGjQfATQzM4qKWParUtiYFiMuylQV7XqSRfni2LsNbvehzuc8ekCTERNT9CzrXXeoSSrPertLhlH5VQTy1SVBGTtLW31vednQwVcI7AphFzbHYOBlR3cdaDiwkEWg4nPIn6c1AR2ZU4nto8wcOdLpS/Yot2svcP9ercw/QhF7NVgOGTlw1YX/S2He+pUUVKGIzJSrDvh96BevdLW7Sle7Lb9NoWXyi1n40SCxm7veQi/JinxlEDqBnJXf0IW11e3YHIKYr06fkdzR5tFBk0xcvAUmQ0mvWByYbibwhwKE/tI70NoiAxGkPfcUZ/VCQmqPamKUvzJfP9ZN5WhUbdiMxhAP+VXTP+IEkqqcRomFruc/kVf+R+OTbHL5h5R44GOgjW55Aj8z9rIiJU/9oxldo97Qu2qWZ+/qZgHj4auHHgVdARv3fz+hSvyrSJhBDQIRNxM1yKb5Tao1/JS63ZDnYkZeCmr6RsL4qNaHBFK9aBbpkZu++fvj3RlwDWAS7c=
+  app: vast-hollows-78863
+  on:
+    repo: mmpal78/blog-app-mongoose-challenge-solution
